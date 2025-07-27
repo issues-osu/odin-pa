@@ -57,6 +57,30 @@ This repository contains the full data processing, spatial analysis, and modelin
 
 ---
 
+## 📊 Key Outputs
+
+- Overdose response rates mapped by race/ethnicity
+- Predictive models of overdose survival
+- Descriptive patterns of overdose by hour, month, and victim profile
+- Rate comparisons by urban/rural county classification
+
+---
+
+### 📌 Notes
+
+- This analysis uses cleaned ODIN data from the Pennsylvania State Police.
+- Population estimates are drawn from the 2020 American Community Survey.
+- County shapefiles are provided by the U.S. Census Bureau via the `tigris` R package.
+
+---
+
+## 📚 Citation
+
+If you use this code or data structure, please cite:
+
+> Barboza, G. E., & Salerno, J. D. (2020). A descriptive study of racial and ethnic differences of drug overdoses and naloxone administration in Pennsylvania. *International Journal of Drug Policy*, 83, 102718. https://doi.org/10.1016/j.drugpo.2020.102718
+>
+
 ## 📁 Directory Structure
 
 ```text
@@ -76,29 +100,4 @@ This repository contains the full data processing, spatial analysis, and modelin
    └── pa_counties.geojson
 📄 README.md
 
-
----
-
-## 📊 Key Outputs
-
-- Overdose response rates mapped by race/ethnicity
-- Predictive models of overdose survival
-- Descriptive patterns of overdose by hour, month, and victim profile
-- Rate comparisons by urban/rural county classification
-
----
-
-## 📌 Notes
-
-- This analysis uses cleaned ODIN data from the Pennsylvania State Police.
-- Population estimates are drawn from the 2020 American Community Survey.
-- County shapefiles are provided by the U.S. Census Bureau via the `tigris` R package.
-
----
-
-## 📚 Citation
-
-If you use this code or data structure, please cite:
-
-> Barboza, G. E., & Salerno, J. D. (2020). A descriptive study of racial and ethnic differences of drug overdoses and naloxone administration in Pennsylvania. *International Journal of Drug Policy*, 83, 102718. https://doi.org/10.1016/j.drugpo.2020.102718
 
