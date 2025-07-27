@@ -9,6 +9,8 @@ This repository contains the full data processing, spatial analysis, and modelin
 
 ---
 
+![Distribution of overdose response by race/ethnicity in PA (Monthly)](images/Rplot.png)
+
 ## 🧭 Workflow Overview
 
 ### 1. Setup and Data Import
